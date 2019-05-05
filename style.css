@@ -15,7 +15,7 @@ html {
 .container {
   color: white;
   font-weight: bold;
-  border: 3px solid #f1f1f1;
+  border: 1px solid grey;
   position: absolute;
   top: 20%;
   left: 50%;
@@ -23,4 +23,9 @@ html {
   width: 80%;
   padding: 20px;
   text-align: center;
+}
+
+#display {
+  margin: 0px;
+  padding: 5px;
 }
