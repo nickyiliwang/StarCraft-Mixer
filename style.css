@@ -1,0 +1,26 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.background-image {
+  background-image: url("https://oldgamesdownload.com/wp-content/uploads/StarCraft_Brood_War_Gameplay_Windows-1.gif");
+  height: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 200vh auto;
+}
+
+.container {
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}

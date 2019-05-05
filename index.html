@@ -1,15 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.js"></script>
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
-<script src="script.js"></script>
+  <head>
+    <title>StaCraft Mixer</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="background-image"></div>
+    <div class="container" id="drum-machine">
+      <audio
+        id="#mainSong"
+        src="https://ia802700.us.archive.org/34/items/BeethovenVirus/Banya-BeethovenVirusFullVersion.ogg"
+      ></audio>
+      <button><a onClick="togglePlay()">Play/Pause</a></button>
+      <div id="display"></div>
+      <button class="drum-pad" id="Q">
+        Q<audio
+          class="clip"
+          id="Q"
+          src="https://vignette.wikia.nocookie.net/starcraft/images/d/d6/TerranMarineReady00SC1.ogg/revision/latest?cb=20170514115424"
+        >
+          Marine 1
+        </audio>
+      </button>
+      <button class="drum-pad" id="W">
+        W<audio
+          class="clip"
+          id="W"
+          src="https://vignette.wikia.nocookie.net/starcraft/images/3/38/TerranMarineYes00SC1.ogg/revision/latest?cb=20170514115623"
+        >
+          Marine 2
+        </audio>
+      </button>
+      <button class="drum-pad" id="E">
+        E<audio
+          class="clip"
+          id="E"
+          src="https://vignette.wikia.nocookie.net/starcraft/images/3/30/ZergZerglingReady00SC1.ogg/revision/latest?cb=20170520140405"
+        >
+          Zerg 1
+        </audio>
+      </button>
+      <button class="drum-pad" id="A">
+        A<audio
+          class="clip"
+          id="A"
+          src="https://vignette.wikia.nocookie.net/starcraft/images/e/ea/ZergBroodlingAttack00SC1.ogg/revision/latest?cb=20170520131321"
+        >
+          Zerg 2
+        </audio>
+      </button>
+      <button class="drum-pad" id="S">
+        S<audio
+          class="clip"
+          id="S"
+          src="https://vignette.wikia.nocookie.net/starcraft/images/8/8f/TerranMarineDeath00SC1.ogg/revision/latest?cb=20170514115143"
+        >
+          Marine Death 1
+        </audio>
+      </button>
+      <button class="drum-pad" id="D">
+        D<audio
+          class="clip"
+          id="D"
+          src="https://vignette.wikia.nocookie.net/starcraft/images/8/8d/TerranMarineStimPack01SC1.ogg/revision/latest?cb=20170514115501"
+        >
+          Stimpack 1
+        </audio>
+      </button>
+      <button class="drum-pad" id="Z">
+        Z<audio
+          class="clip"
+          id="Z"
+          src="https://vignette.wikia.nocookie.net/starcraft/images/3/33/TerranValkyrieAttack00SC1.ogg/revision/latest?cb=20170525175905"
+        >
+          Zerg Attack 1
+        </audio>
+      </button>
+      <button class="drum-pad" id="X">
+        X<audio
+          class="clip"
+          id="X"
+          src="https://vignette.wikia.nocookie.net/starcraft/images/f/f5/TerranSiegeTankReady00SC1.ogg/revision/latest?cb=20170514122741"
+        >
+          Seige Tank 1
+        </audio>
+      </button>
+      <button class="drum-pad" id="C">
+        C<audio
+          class="clip"
+          id="C"
+          src="https://vignette.wikia.nocookie.net/starcraft/images/a/a9/TerranSiegeTankSiegeMode01SC1.ogg/revision/latest?cb=20170514122820"
+        >
+          Seige Mode 1
+        </audio>
+      </button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
 </html>
